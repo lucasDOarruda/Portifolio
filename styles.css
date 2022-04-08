@@ -226,3 +226,85 @@ svg {
 }
 
 
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+  z-index: 1001;
+  
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-size: 10ch;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.2s linear;
+  width: 100%;
+  z-index: 9999;
+  opacity: 1;
+  transform: opacity 1s linear;
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 5s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+ 
+  
+
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+  
+}
+
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+#hideMe {
+  -moz-animation: cssAnimation 0s ease-in 6s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 6s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 6s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 6s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      visibility:hidden;
+  }
+}
+
+
+  
+
