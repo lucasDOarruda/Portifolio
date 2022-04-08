@@ -13,7 +13,7 @@ main {
   justify-content: space-around;
   max-inline-size: calc(var(--size-content-1) * 4);
   gap: var(--size-7);
-  padding: var(--size-8);
+  padding: var(--size-6);
   
 }
 
@@ -77,7 +77,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: rgb(67, 64, 64);
+  color: rgb(0, 0, 0);
 }
 .popup_flight_travlDil .content_flightht_travel_dil {
   max-height: 30%;
