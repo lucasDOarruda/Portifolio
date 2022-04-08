@@ -60,10 +60,10 @@ body {
   opacity: 10;
 }
 .popup_flight_travlDil {
-  
+  color: #ccc;
   margin: 270px auto;
   padding: 20px;
-  background: rgba(249, 248, 248, 0.876);
+  background: rgb(125, 119, 119);
   border-radius: 5px;
   width: 30%;
   position: relative;
