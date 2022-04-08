@@ -61,12 +61,12 @@ body {
 }
 .popup_flight_travlDil {
   
-  margin: auto;
+  margin: 270px auto;
   padding: 20px;
   background: rgba(249, 248, 248, 0.876);
   border-radius: 5px;
-  
-  position: flex;
+  width: 30%;
+  position: relative;
   transition: all 2s ease-in-out;
 }
 .popup_flight_travlDil .close_flight_travelDl {
@@ -224,3 +224,5 @@ svg {
     stroke-dashoffset: 250;
   }
 }
+
+
