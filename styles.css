@@ -4,7 +4,26 @@
 @import "https://unpkg.com/open-props/easings.min.css"; 
 
 
+/* Minimum aspect ratio */
+@media (min-aspect-ratio: 8/5) {
+  div {
+    
+  }
+}
 
+/* Maximum aspect ratio */
+@media (max-aspect-ratio: 3/2) {
+  div {
+    
+  }
+}
+
+/* Exact aspect ratio, put it at the bottom to avoid override*/
+@media (aspect-ratio: 1/1) {
+  div {
+    
+  }
+}
 
 main {
   display: flex;
@@ -14,7 +33,7 @@ main {
   max-inline-size: calc(var(--size-content-1) * 4);
   gap: var(--size-7);
   padding: var(--size-6);
-  
+
 }
 
 .card {
@@ -37,7 +56,10 @@ main {
 body {
   display: grid;
   place-content: center;
+
+    
   
+
 }
 
 
@@ -82,7 +104,7 @@ body {
 .popup_flight_travlDil .content_flightht_travel_dil {
   max-height: 30%;
   overflow: auto;
-  color: black;
+  color: rgb(255, 255, 255);
   
 }
 
