@@ -52,5 +52,3 @@ function consoleText(words, id, colors) {
 
 
 
-    
-    
