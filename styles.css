@@ -54,7 +54,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0);
   transition: opacity 500ms;
   visibility: hidden;
   opacity: 0;
@@ -68,7 +68,7 @@ body {
   color: #ccc;
   margin: 270px auto;
   padding: 20px;
-  background: rgb(125, 119, 119);
+  background: rgba(60, 59, 59, 0.867);
   border-radius: 5px;
   width: 30%;
   position: relative;
@@ -88,7 +88,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.748);
 }
 .popup_flight_travlDil .content_flightht_travel_dil {
   max-height: 30%;
@@ -156,7 +156,7 @@ p {
 HTML CSSResult Skip Results Iframe
 EDIT ON
 body {
-  display: grid;
+  display: line;
   height: 100vh; 
   place-items: center;
   background: #243b47;
@@ -170,6 +170,7 @@ svg {
   width: 114px;
   height: 114px;
   margin: 1em;
+  
 }
 
 .bg {
@@ -239,7 +240,7 @@ svg {
 
 @import url(https://fonts.googleapis.com/css?family=Khula:700);
 body {
-  background: #111;
+  background: rgba(17, 17, 17, 0);
   z-index: 1001;
   
 }
@@ -249,7 +250,7 @@ body {
 .console-container {
   font-size: 10ch;
   align-items: center;
-  background: rgb(0, 0, 0);
+  background: rgb(19, 19, 19);
   display: flex;
   height: 100vh;
   justify-content: center;
