@@ -72,7 +72,7 @@ body {
   margin: 270px auto;
   padding: 20px;
   background: rgba(60, 59, 59, 0.867);
-  border-radius: 5px;
+  border-radius: 50px;
   width: 30%;
   position: relative;
   transition: all 2s ease-in-out;
@@ -156,6 +156,8 @@ p {
 
 /* DISPLAY %*/
 
+
+
 HTML CSSResult Skip Results Iframe
 EDIT ON
 body {
@@ -172,6 +174,7 @@ body {
 }
 
 svg {
+  
   align-items: center;
   width: 114px;
   height: 114px;
@@ -216,15 +219,15 @@ svg {
   stroke-width: 10%;
   stroke: magenta;
   stroke-dasharray: 360;
-  stroke-dashoffset: 250;
+  stroke-dashoffset: 175;
   animation: progress .5s ease-out;
 }
 .meter-4 {
   stroke-width: 10%;
   stroke-dasharray: 360;
-  stroke-dashoffset: 100;
+  stroke-dashoffset: 0;
   stroke: aqua;
-  animation: progress-1 1s ease-out;
+  animation: progress 1s ease-out;
 }
 .meter-5 {
   stroke-width: 10%;
@@ -237,8 +240,8 @@ svg {
   stroke-width: 10%;
   stroke: rgb(96, 255, 4);
   stroke-dasharray: 360;
-  stroke-dashoffset: 250;
-  animation: progress-3 .5s ease-out;
+  stroke-dashoffset: 0;
+  animation: progress .5s ease-out;
 }
 
 .meter-7 {
