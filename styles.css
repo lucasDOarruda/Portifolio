@@ -39,6 +39,7 @@ main {
 body {
   display: grid;
   place-content: center;
+  min-zoom: 5; /*zoom webpage*/
 
     
   

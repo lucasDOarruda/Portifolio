@@ -51,3 +51,19 @@ function consoleText(words, id, colors) {
 }
 
 
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Host': 'trivia-by-api-ninjas.p.rapidapi.com',
+		'X-RapidAPI-Key': '74bddf24edmshcc17fc33edcca5cp1b1ce7jsn1bf5363e8a77'
+	}
+};
+
+
+//Api jokes//
+
+fetch('https://trivia-by-api-ninjas.p.rapidapi.com/v1/trivia', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+  .catch(err => console.error(err));
+
